@@ -1,12 +1,11 @@
-# Cesar's Shop - AREP_Lab03
-
+# Cesar's Shop - AREP_Lab04
 Este proyecto implementa un servidor web HTTP en Java, que ha evolucionado progresivamente:
 
 Fase 1: Servidor básico capaz de servir archivos estáticos (HTML, CSS, JS, imágenes). [GitHub](https://github.com/XxELIngexX/AREP-T1).
 
 Fase 2: Extensión a un framework web ligero que permite definir servicios REST con lambdas (get("/ruta", ...)), manejar parámetros de consulta (req.getValues("param")) y especificar la ubicación de archivos estáticos. [GitHub](https://github.com/XxELIngexX/AREP-T2)
 
-Fase 3 (actual): Transformación en un framework IoC inspirado en Spring Boot, soportando:
+Fase 3: Transformación en un framework IoC inspirado en Spring Boot, soportando:
 
 - POJOs con anotaciones como @RestController.
 - Endpoints definidos con anotaciones:
@@ -15,6 +14,13 @@ Fase 3 (actual): Transformación en un framework IoC inspirado en Spring Boot, s
     - @DeleteMapping("/ruta") para eliminar recursos.
 - Manejo de parámetros de consulta con @RequestParam.
 - Recepción de datos en formato JSON usando @RequestBody.
+
+Fase 4 (actual): se agrega la configuracion necesaria para crear un contenedor en Docker que almacene el proyecto y se despliega en la nube usando AWS
+
+**Video de evidencia de despliegue**
+
+[![Miniatura del video](https://img.youtube.com/vi/sYcl1Zn0etQ/0.jpg)](https://youtu.be/sYcl1Zn0etQ)
+
 
 
 ---
